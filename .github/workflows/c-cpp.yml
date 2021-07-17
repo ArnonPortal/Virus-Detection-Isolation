@@ -20,4 +20,4 @@ jobs:
     - name: exec
       run: bin/cTrace config1.json
     - name: Check Output
-      run: cat output
+      run: cat output.json
