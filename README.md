@@ -27,6 +27,17 @@ than c nodes long, returns the last node in it.
 *The program terminates when each connected component of the graph is either fully infected,
 or doesn't contain a virus in it*
 
+The output of the program is a file named output.json. The file should contain the graph in the
+last iteration, and a list of infected nodes.
+
 # Examples
 There three diffrent running configurations and expected outputs (config1.json / output1.json , config2...).
+In order to run the program use the following steps on the terminal:
 
+1. make clean
+2. make
+3. bin/cTrace config'1/2/3'.json
+
+Or if you are using any IDE , just make sure the argument of the program is a valid config.
+
+Then you can compare the output.json file to the right config.json.
