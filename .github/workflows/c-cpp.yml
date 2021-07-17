@@ -19,3 +19,5 @@ jobs:
       run: make
     - name: exec
       run: bin/cTrace config1.json
+    - name: Check Output
+      run: cat output
